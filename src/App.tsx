@@ -46,13 +46,13 @@ function App() {
         justifyContent: "space-between"
       }} >
         <MaterialCard variant="elevation">
-          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="filled" />
         </MaterialCard>
         <MaterialCard variant="filled">
-          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="filled" />
         </MaterialCard>
         <MaterialCard variant="outlined">
-          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="filled" />
         </MaterialCard>
       </div>
       <div style={{
@@ -63,31 +63,48 @@ function App() {
         justifyContent: "space-between"
       }} >
         <MaterialCard variant="elevation">
-          <CardContent2 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="outlined" />
         </MaterialCard>
         <MaterialCard variant="filled">
-          <CardContent2 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="outlined" />
         </MaterialCard>
         <MaterialCard variant="outlined">
-          <CardContent2 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="outlined" />
         </MaterialCard>
       </div>
       <div style={{
         marginTop: "40px",
-        marginBottom: "40px",
         width: "100%",
         gap: "10%",
         display: "flex",
         justifyContent: "space-between"
       }} >
         <MaterialCard variant="elevation">
-          <CardContent3 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="filled-tonal" />
         </MaterialCard>
         <MaterialCard variant="filled">
-          <CardContent3 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="filled-tonal" />
         </MaterialCard>
         <MaterialCard variant="outlined">
-          <CardContent3 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="filled-tonal" />
+        </MaterialCard>
+      </div>
+      <div style={{
+        marginTop: "40px",
+        marginBottom: "80px",
+        width: "100%",
+        gap: "10%",
+        display: "flex",
+        justifyContent: "space-between"
+      }} >
+        <MaterialCard variant="elevation">
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="default" />
+        </MaterialCard>
+        <MaterialCard variant="filled">
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="default" />
+        </MaterialCard>
+        <MaterialCard variant="outlined">
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" cardType="default" />
         </MaterialCard>
       </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import MaterialButton from "./MaterialButton";
 
-const CardContent = ({ title, description1, description2 }) => {
+const CardContent = ({ title, description1, description2, cardType }) => {
     const containerStyle = {
         position: "relative",
         display: 'flex',
@@ -38,7 +38,7 @@ const CardContent = ({ title, description1, description2 }) => {
             </div>
             <div style={{ flexGrow: 1 }} />
             <div style={buttonContainerStyle}>
-                <MaterialButton type="filled">
+                <MaterialButton type={cardType}>
                     Click me
                 </MaterialButton>
             </div>
