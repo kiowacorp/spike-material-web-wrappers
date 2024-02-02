@@ -25,7 +25,10 @@ import MdOutlinedTextField from './components/MdOutlinedTextField';
 import MaterialSymbol from './components/MaterialSymbol';
 import MaterialButtonExamples from './examples/MaterialButtonExamples';
 import MaterialIconButtonExamples from './examples/MaterialIconButtonExamples';
-
+import MaterialCard from './components/MaterialCard'
+import CardContent from './components/CardContent';
+import CardContent2 from './components/CardContent2';
+import CardContent3 from './components/CardContent3';
 
 MaterialIconButtonExamples
 function App() {
@@ -34,6 +37,60 @@ function App() {
       <h1>Material Web Components</h1>
       <MaterialButtonExamples />
       <MaterialIconButtonExamples />
+
+      <div style={{
+        marginTop: "40px",
+        width: "100%",
+        gap: "10%",
+        display: "flex",
+        justifyContent: "space-between"
+      }} >
+        <MaterialCard variant="elevation">
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+        <MaterialCard variant="filled">
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+        <MaterialCard variant="outlined">
+          <CardContent title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+      </div>
+      <div style={{
+        marginTop: "40px",
+        width: "100%",
+        gap: "10%",
+        display: "flex",
+        justifyContent: "space-between"
+      }} >
+        <MaterialCard variant="elevation">
+          <CardContent2 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+        <MaterialCard variant="filled">
+          <CardContent2 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+        <MaterialCard variant="outlined">
+          <CardContent2 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+      </div>
+      <div style={{
+        marginTop: "40px",
+        marginBottom: "40px",
+        width: "100%",
+        gap: "10%",
+        display: "flex",
+        justifyContent: "space-between"
+      }} >
+        <MaterialCard variant="elevation">
+          <CardContent3 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+        <MaterialCard variant="filled">
+          <CardContent3 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+        <MaterialCard variant="outlined">
+          <CardContent3 title="Hello World" description1="this is our demo" description2="this is our demo 2" />
+        </MaterialCard>
+      </div>
+
     </div >
   );
 }
